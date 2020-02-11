@@ -1,5 +1,6 @@
 // CODELAB: Add event listener for beforeinstallprompt event
 let deferredPrompt;
+let logAppInstalled;
 
 window.addEventListener("beforeinstallprompt", e => {
   // Stash the event so it can be triggered later.
