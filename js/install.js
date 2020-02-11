@@ -5,11 +5,11 @@ window.addEventListener("beforeinstallprompt", e => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
   // Actualizar UI notifica al usuario que puede agregar a la pantalla de inicio
-  showInstallPromotion();
+  
 });
-btnAdd.addEventListener("click", e => {
+window.addEventListener("click", e => {
   // hide our user interface that shows our A2HS button
-  btnAdd.style.display = "none";
+  window.style.display = "none";
   // Show the prompt
   deferredPrompt.prompt();
   // Wait for the user to respond to the prompt
