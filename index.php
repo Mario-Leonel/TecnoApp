@@ -137,6 +137,8 @@
     </footer>
 
 </body>
+<!-- CODELAB: Add the install script here -->
+<script src="js/install.js"></script>
 <script>
 if (navigator.serviceWorker) {
     navigator.serviceWorker.register('service-worker.js').then(function(registration) {
