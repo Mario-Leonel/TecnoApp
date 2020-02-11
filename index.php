@@ -16,7 +16,7 @@
     <meta name="theme-color" content="#043440" />
     <link rel="apple-touch-icon" href="/img/icons/icon-512x512.png">
     <title>TecnoApp</title>
-
+<link rel="canonical" href="https://tecno-web.herokuapp.com/" />
     <!-- ESTILOS CSS -->
     <!-- Font awesome -->
 
