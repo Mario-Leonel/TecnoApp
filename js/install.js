@@ -27,5 +27,5 @@ window.addEventListener("click", e => {
 // CODELAB: Add event listener for appinstalled event
 window.addEventListener("appinstalled", logAppInstalled);
 // CODELAB: Add code to log the event
-console.log("Weather App was installed.", evt);
+//console.log("Weather App was installed.", evt);
 
