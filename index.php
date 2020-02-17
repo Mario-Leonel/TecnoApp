@@ -14,6 +14,7 @@
     <meta name="author" content="Mario Alberto Leonel">
     <meta name="distribution" content="Global">
     <meta name="theme-color" content="#043440" />
+    <meta name="google-site-verification" content="h6YsG7ufP0ZIDdVrOTu3C4eCxfXbt4_WhUWJlyc1e-s" />
     <link rel="apple-touch-icon" href="/img/icons/icon-512x512.png">
     <title>TecnoApp</title>
 <link rel="canonical" href="https://tecno-web.herokuapp.com/" />
