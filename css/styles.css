@@ -1,0 +1,382 @@
+/*@import url("https://fonts.googleapis.com/css?family=Lato:300|Roboto:300,400,500,700&display=swap");
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+/*PARA CAMBIAR EL COLOR DEL SCROLLBAR*/
+body::-webkit-scrollbar {
+  width: 5px;
+  background: #01232c;
+}
+body::-webkit-scrollbar-thumb {
+  background: #1e867e;
+  border-radius: 10px;
+}
+/* TERMINA CONFIFURACION DE SCROLLBAR*/
+p,
+h2 {
+  max-width: 90%;
+  margin: 0 auto;
+}
+p,
+label {
+  color: #777;
+  text-align: left; /*alineacion de texto*/
+  line-height: 21pt; /* espacio entre lineas*/
+  font-size: 14px;
+}
+h6 {
+  font-size: 14px !important;
+}
+h1,
+h3,
+h4,
+h5,
+.esp {
+  color: #149184;
+}
+.principal {
+  color: #777;
+  text-align: left; /*alineacion de texto*/
+  line-height: 21pt; /* espacio entre lineas*/
+  font-size: 20px;
+}
+.negrita {
+  font-size: 22px;
+}
+b a {
+  text-decoration: none;
+  color: #1e867e;
+}
+b a:hover {
+  text-decoration: none;
+  color: #1e867e;
+}
+p a {
+  text-decoration: none;
+  color: #1e867e;
+}
+p a:hover {
+  text-decoration: none;
+  color: #1e867e;
+}
+/* ----------------------- ?EMPIEZA CSS MENU------------------------------ */
+/*.logo-bg {
+  background: #01232c;
+  cursor: pointer;
+  height: 140px;
+}
+
+.logo-bg a img {
+  border-radius: 8px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+.logo-sm {
+  display: inline-block;
+  margin-right: 0px;
+  padding: 0 40px;
+}
+
+.logo-sm a {
+  text-decoration: none;
+  transition: 0.2s ease all;
+}
+.logo-sm a .tam-logo {
+  width: auto;
+  height: 90px; /* tamaño del imagen*/
+  margin: 0;
+  padding: 0;
+}
+/* AGREGAR CLASE PARA CAMBIAR TAMANO IMAGEN*/
+.logo-sm a .tam-logo-g {
+  width: auto;
+  height: 65px; /* tamaño del imagen*/
+  transition: 0.6s ease all;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  float: left;
+  width: 100%;
+  color: white;
+  background: rgba(1, 35, 44, 0.9);
+  padding: 0 0px;
+  transition: 0.3s ease all;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+/*.nav .wrap .logo-sm {
+  position: relative;
+  top: -100px; /* Para ocultar a la izquierda
+  transition: 0.6s ease all;
+}*/
+nav {
+  display: inline-block;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  position: relative;
+  right: 0%; /*Para mover a la izquierda*/
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+nav a {
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease all;
+}
+nav a:hover {
+  color: #b1e038;
+  background: #214d58; /*cambia el color de fondo*/
+}
+
+body .nav_fixed .nav {
+  position: fixed;
+  top: 0;
+  z-index: 30; /* para poner encima de las demas elementos*/
+}
+body .nav_fixed .nav .wrap .logo-sm {
+  top: 0;
+}
+/* ----------------------- ?TERMINA CSS MENU------------------------------ */
+main {
+  background: white;
+  padding: 0px 0px 0px 0px;
+}
+/*--------------------NOSOTROS------------------------*/
+.inicio {
+  width: 90%;
+  background-color: rgba(231, 198, 198, 0.3);
+  /*padding: 25px 0px;*/
+}
+
+/*--------------------SERVICIOS------------------------*/
+.servicios {
+  width: 100%;
+  background-color: #a5ee74;
+  padding: 25px 0px 25px 0px;
+}
+.servicios .col-12 .contedor-serv p {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #01232c;
+}
+.servicios .col-12 .contedor-serv h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.servicios .col-12 .contedor-serv .content-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.servicios .col-12 .contedor-serv a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: rgba(1, 35, 44, 0.9);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 12px 0;
+  border-radius: 13px;
+}
+.servicios .col-12 .contedor-serv a:hover {
+  color: #b1e038;
+  background: #214d58; /*cambia el color de fondo*/
+}
+
+/*--------------------portafolio------------------------*/
+.portafolio {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  /*padding: 25px 0px;*/
+}
+/*--------------------contacto------------------------*/
+.contacto {
+  width: 100%;
+  background-color: rgba(224, 221, 221, 0.3);
+  /* padding: 25px 0px;*/
+}
+.contacto p a {
+  text-decoration: none;
+  color: #1e867e;
+  font-weight: 600;
+}
+/*--------------------FOOTER------------------------*/
+footer {
+  width: 100%;
+  background: #01232c;
+  padding: 25px 0px;
+}
+/*--------------------FOOTER------------------------*/
+
+/* -------------------DISEÑO DE BOTON DE MENU PARA RESPONSIVO-------------------------*/
+h6 {
+  font-size: 14px !important;
+}
+.btn-menu {
+  padding: 22px;
+  text-align: center;
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  background: #b1e038;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(1, 0, 0, 1);
+  transform: translatex(
+    100px
+  ); /* deslizamiento respeto a x 100px para desaparecer*/
+  z-index: 1030; /* para poner encima de las demas elementos*/
+}
+.btn-menu:hover {
+  transform: scale(1.2);
+  background: #5be003;
+  z-index: 1030; /* para poner encima de las demas elementos*/
+}
+/* MEDIA QUERYS PARA RESPONSIVO 
+? El codigo es esclusivo para la resolucion que se establece
+*/
+@media screen and (max-width: 800px) {
+  /* ----------------------- ?EMPIEZA CSS MENU------------------------------ */
+
+  .btn-menu {
+    transform: translatex(0px);
+  }
+  .principal {
+    color: #777;
+    text-align: left; /*alineacion de texto*/
+    line-height: 21pt; /* espacio entre lineas*/
+    font-size: 17px;
+  }
+
+  .nav {
+    width: 60%;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    padding: 0px;
+    transform: translateX(-100%);
+    z-index: 1030; /* para poner encima de las demas elementos*/
+  }
+  .nav .wrap {
+    left: 0;
+  }
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+  }
+  nav li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    left: 2%;
+  }
+  .logo-sm a .tam-logo {
+    width: auto;
+    height: 60px; /* tamaño del imagen*/
+    margin: 0;
+    padding: 0;
+  }
+  /* AGREGAR CLASE PARA CAMBIAR TAMANO IMAGEN*/
+  .logo-sm a .tam-logo-g {
+    width: auto;
+    height: 60px; /* tamaño del imagen*/
+    transition: 0.6s ease all;
+    margin: 0;
+    padding: 0;
+  }
+  .logo-sm {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  nav a {
+    width: 100%;
+    display: block;
+    padding: 15px;
+    margin: 0;
+  }
+  .nav-toggle {
+    transition: all 400ms cubic-bezier(1, 0, 0, 1);
+    transform: translatex(0px); /* Para aparecer menu*/
+  }
+  /* ----------------------- TERMINA CSS MENU------------------------------ */
+  main {
+    background: white;
+    padding: 0px 1px 1px 1px;
+  }
+  /*--------------------SERVICIOS------------------------*/
+  .servicios .col-12 {
+    width: 100%;
+    /* padding: 20px 30px 20px 30px; /* t-d-a-i*/
+  }
+
+  .servicios .col-12 .contedor-serv p {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .servicios .col-12 .contedor-serv h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .servicios .col-12 .contedor-serv .content-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+  .servicios .col-12 .contedor-serv a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgba(1, 35, 44, 1);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 12px 0;
+    border-radius: 13px;
+  }
+  .servicios .col-12 .contedor-serv a:hover {
+    color: #b1e038;
+    background: #214d58; /*cambia el color de fondo*/
+  }
+}
