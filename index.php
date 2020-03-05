@@ -219,7 +219,7 @@
 
                     <li>
                         <a href="#">
-                            <img src="img/CasExito/glifo.png" class="casos-exit" alt="Glifo">
+                            <img src="img/CasExito/Glifo.png" class="casos-exit" alt="Glifo">
                             <section class="flex-caption">
                                 <h5></h5>
                             </section>
